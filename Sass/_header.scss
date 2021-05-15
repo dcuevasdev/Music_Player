@@ -1,0 +1,19 @@
+.header {
+  @include content-width;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  color: white;
+  &__circle {
+    @include circles-width(50px, 50px, 50%);
+    @include external-shadow;
+    .medium-img {
+      width: 30px;
+      height: 30px;
+    }
+  }
+  &__title {
+    font-size: 18px;
+  }
+}

@@ -8,3 +8,20 @@ $firts-shadow: #0e1013;
 $second-shadow: #20262d;
 $yellow-gradient: #ffcd34;
 $red-gradient: #be434c;
+
+@mixin content-width {
+  width: 345px;
+  margin: 0 auto;
+}
+
+@mixin circles-width($width, $height, $radius) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: $width;
+  height: $height;
+  border-radius: $radius;
+}
+@mixin external-shadow {
+  box-shadow: 5px 5px 10px $firts-shadow, -5px -5px 10px $second-shadow;
+}

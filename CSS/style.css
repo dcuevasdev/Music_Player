@@ -7,3 +7,34 @@
 body {
   font-family: "Nunito", sans-serif;
 }
+
+.container {
+  width: 375px;
+  background-color: #171b20;
+}
+
+.header {
+  width: 345px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  color: white;
+}
+.header__circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  box-shadow: 5px 5px 10px #0e1013, -5px -5px 10px #20262d;
+}
+.header__circle .medium-img {
+  width: 30px;
+  height: 30px;
+}
+.header__title {
+  font-size: 18px;
+}
