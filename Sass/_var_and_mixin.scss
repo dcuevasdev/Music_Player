@@ -28,3 +28,7 @@ $red-gradient: #be434c;
 @mixin external-shadow {
   box-shadow: 5px 5px 10px $firts-shadow, -5px -5px 10px $second-shadow;
 }
+@mixin inset-shadow {
+  box-shadow: inset 5px 5px 10px $firts-shadow,
+    inset -5px -5px 10px $second-shadow;
+}
