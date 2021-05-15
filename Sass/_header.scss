@@ -5,7 +5,7 @@
   align-items: center;
   height: 100px;
   color: white;
-  &__circle {
+  &__button {
     @include circles-width(50px, 50px, 50%);
     @include external-shadow;
     .medium-img {

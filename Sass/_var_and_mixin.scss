@@ -20,7 +20,10 @@ $red-gradient: #be434c;
   align-items: center;
   width: $width;
   height: $height;
+  border: none;
   border-radius: $radius;
+  background: transparent;
+  cursor: pointer;
 }
 @mixin external-shadow {
   box-shadow: 5px 5px 10px $firts-shadow, -5px -5px 10px $second-shadow;
