@@ -34,12 +34,15 @@ body {
   cursor: pointer;
   box-shadow: 5px 5px 10px #0e1013, -5px -5px 10px #20262d;
 }
-.header__button .icon-arrow-left {
+.header__button .medium-img {
   width: 30px;
   height: 30px;
 }
 .header__button:active {
   box-shadow: inset 5px 5px 10px #0e1013, inset -5px -5px 10px #20262d;
+}
+.header__button:active .medium-img:active {
+  transform: scale(0.9);
 }
 .header__title {
   font-size: 18px;
