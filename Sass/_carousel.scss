@@ -1,0 +1,25 @@
+.music__carousel {
+  display: flex;
+  overflow-x: scroll;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x proximity;
+}
+.carousel__item {
+  margin-top: 30px;
+  scroll-snap-align: center;
+}
+.carousel__img {
+  margin: 0 10px 0;
+  .img__disk {
+    border-radius: 20px;
+  }
+}
+.carousel__text {
+  margin: 10px;
+  text-align: center;
+  color: white;
+  .text__song {
+    font-size: 24px;
+    font-weight: normal;
+  }
+}
