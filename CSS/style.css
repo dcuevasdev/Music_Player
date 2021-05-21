@@ -55,6 +55,10 @@ body {
   scroll-snap-type: x proximity;
 }
 
+.music__carousel::-webkit-scrollbar {
+  display: none;
+}
+
 .carousel__item {
   margin-top: 30px;
   scroll-snap-align: center;
@@ -69,6 +73,7 @@ body {
 
 .carousel__text {
   margin: 10px;
+  margin-bottom: 30px;
   text-align: center;
   color: white;
 }
