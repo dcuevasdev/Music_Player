@@ -1,0 +1,39 @@
+.controls {
+  @include content-width;
+  &__progress {
+    position: relative;
+  }
+}
+.progress__bar[value] {
+  width: 100%;
+  height: 5px;
+  appearance: none;
+  -webkit-appearance: none;
+  &::-webkit-progress-bar {
+    border-radius: 50px;
+    box-shadow: inset -2px -2px 3px $firts-shadow,
+      inset 2px 2px 3px $second-shadow;
+  }
+  &::-webkit-progress-value {
+    height: 5px;
+    border-radius: 50px;
+    background: linear-gradient(90deg, $yellow-gradient 0%, $red-gradient 100%);
+  }
+}
+.progress__circle {
+  position: absolute;
+  top: 6px;
+  left: calc(100% - 215px);
+  content: "";
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: linear-gradient(90deg, $red-gradient 0%, $yellow-gradient 100%);
+}
+.progress__time {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+  font-size: 14px;
+  color: white;
+}

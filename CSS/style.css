@@ -81,3 +81,46 @@ body {
   font-size: 24px;
   font-weight: normal;
 }
+
+.controls {
+  width: 345px;
+  margin: 0 auto;
+}
+.controls__progress {
+  position: relative;
+}
+
+.progress__bar[value] {
+  width: 100%;
+  height: 5px;
+  appearance: none;
+  -webkit-appearance: none;
+}
+.progress__bar[value]::-webkit-progress-bar {
+  border-radius: 50px;
+  box-shadow: inset -2px -2px 3px #0e1013, inset 2px 2px 3px #20262d;
+}
+.progress__bar[value]::-webkit-progress-value {
+  height: 5px;
+  border-radius: 50px;
+  background: linear-gradient(90deg, #ffcd34 0%, #be434c 100%);
+}
+
+.progress__circle {
+  position: absolute;
+  top: 6px;
+  left: calc(100% - 215px);
+  content: "";
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: linear-gradient(90deg, #be434c 0%, #ffcd34 100%);
+}
+
+.progress__time {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+  font-size: 14px;
+  color: white;
+}
