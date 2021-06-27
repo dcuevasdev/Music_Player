@@ -8,10 +8,6 @@
   &__button {
     @include circles-width(50px, 50px, 50%);
     @include external-shadow;
-    .medium-img {
-      width: 30px;
-      height: 30px;
-    }
   }
   &__button:active {
     @include inset-shadow;

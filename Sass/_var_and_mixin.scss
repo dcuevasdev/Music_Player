@@ -15,9 +15,6 @@ $red-gradient: #be434c;
 }
 
 @mixin circles-width($width, $height, $radius) {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   width: $width;
   height: $height;
   border: none;

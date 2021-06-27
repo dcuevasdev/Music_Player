@@ -23,9 +23,6 @@ body {
   color: white;
 }
 .header__button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   width: 50px;
   height: 50px;
   border: none;
@@ -33,10 +30,6 @@ body {
   background: transparent;
   cursor: pointer;
   box-shadow: 5px 5px 10px #0e1013, -5px -5px 10px #20262d;
-}
-.header__button .medium-img {
-  width: 30px;
-  height: 30px;
 }
 .header__button:active {
   box-shadow: inset 5px 5px 10px #0e1013, inset -5px -5px 10px #20262d;
@@ -57,7 +50,7 @@ body {
 }
 
 .music__carousel::-webkit-scrollbar {
-  /*color: transparent;*/
+  display: none;
 }
 
 .carousel__item {
@@ -86,9 +79,51 @@ body {
 .controls {
   width: 345px;
   margin: 0 auto;
+  padding-bottom: 2px;
 }
 .controls__progress {
   position: relative;
+}
+.controls__button {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.controls .button__repeat,
+.controls .button__shuffle {
+  width: 35px;
+  height: 35px;
+  border: none;
+  border-radius: 50%;
+  background: transparent;
+  cursor: pointer;
+}
+.controls .button__skip {
+  width: 50px;
+  height: 50px;
+  border: none;
+  border-radius: 50%;
+  background: transparent;
+  cursor: pointer;
+}
+.controls .button__pause {
+  width: 70px;
+  height: 70px;
+  border: none;
+  border-radius: 50%;
+  background: transparent;
+  cursor: pointer;
+}
+.controls .shadow {
+  box-shadow: 5px 5px 10px #0e1013, -5px -5px 10px #20262d;
+}
+.controls .shadow:active {
+  box-shadow: inset 5px 5px 10px #0e1013, inset -5px -5px 10px #20262d;
+}
+.controls .shadow:active .scale:active {
+  transform: scale(0.9);
 }
 
 .progress__bar[value] {

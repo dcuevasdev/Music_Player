@@ -1,7 +1,34 @@
 .controls {
   @include content-width;
+  padding-bottom: 2px;
   &__progress {
     position: relative;
+  }
+  &__button {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .button__repeat,
+  .button__shuffle {
+    @include circles-width(35px, 35px, 50%);
+  }
+  .button__skip {
+    @include circles-width(50px, 50px, 50%);
+  }
+  .button__pause {
+    @include circles-width(70px, 70px, 50%);
+  }
+  .shadow {
+    @include external-shadow;
+  }
+  .shadow:active {
+    @include inset-shadow;
+    .scale:active {
+      transform: scale(0.9);
+    }
   }
 }
 .progress__bar[value] {
