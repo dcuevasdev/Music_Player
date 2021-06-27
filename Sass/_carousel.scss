@@ -3,9 +3,10 @@
   overflow-x: scroll;
   overscroll-behavior-x: contain;
   scroll-snap-type: x proximity;
+  list-style: none;
 }
 .music__carousel::-webkit-scrollbar {
-  display: none;
+  /*color: transparent;*/
 }
 .carousel__item {
   margin-top: 30px;
