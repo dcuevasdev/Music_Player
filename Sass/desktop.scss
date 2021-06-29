@@ -1,13 +1,6 @@
 @import "_var_and_mixin";
 
 /*====== globals ======*/
-body {
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: $color-primary;
-}
 .container {
   width: 375px;
   border-radius: 30px;
