@@ -1,4 +1,4 @@
-# Music Player 🎵
+<h1 align="center">Music Player 🎵</h1>
 
 Maquetación de un reproductor de música aplicando un estilo neumorphism.
 
