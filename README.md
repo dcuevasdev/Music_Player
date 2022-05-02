@@ -4,7 +4,7 @@ Maquetación de un reproductor de música aplicando un estilo neumorphism.
 
 ## 🚀 Deploy
 
-En el siguiente link puedes [ver la web del proyecto](https://dcuevas24.github.io/Music_Player/ "ver la web del proyecto").
+En el siguiente link puedes [ver la web del proyecto](https://dcuevasdev.github.io/Music_Player/ "ver la web del proyecto").
 
 #### View 📱 💻
 
@@ -29,7 +29,7 @@ Puedes realizar la contribución que desees por medio de un Pull requests. Para 
 
 ## ✒️ Autores
 
-**Daniel Cuevas** - _Diseño y Desarrollo_ - [@dcuevasr24](https://twitter.com/dcuevasr24 "@dcuevasr24")
+**Daniel Cuevas** - _Diseño y Desarrollo_ - [@dcuevasdev](https://twitter.com/dcuevasdev "@dcuevasr24")
 
 ## 📄 Licencia
 
